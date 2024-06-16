@@ -3,3 +3,18 @@
 @tailwind components;
 
 @tailwind utilities;
+
+:root {
+    --primary: #1e3a8a;
+    --secondary: #192850;
+}
+
+.btn {
+    background-color: var(--primary);
+    color: #ffffff;
+    transition: box-shadow 0.5s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px var(--secondary), 0 0 20px var(--primary), 0 0 30px var(--primary);
+}

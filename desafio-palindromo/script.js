@@ -8,7 +8,7 @@ function isPalindrome(word) {
         result = 'The word is a palindrome!'
     }
 
-    const showResult = document.createElement('h2');
+    const showResult = document.querySelector('#resultContainer');
     showResult.textContent = result
 
     document.body.appendChild(showResult)
